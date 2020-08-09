@@ -1,7 +1,7 @@
 import { useTheme } from "store/theme";
 import Container from "components/molecules/Container";
 import React from "react";
-import Button from "../../../atoms/Button";
+import Button from "components/atoms/Button";
 
 const PricingIcon: React.FC<{ type?: "pro" | "con" }> = ({ type }) => {
   const theme = useTheme();
