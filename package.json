@@ -5,8 +5,9 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "compile": "yarn build; yarn export",
-    "start": "next start"
+    "compile": "yarn build && yarn export",
+    "start": "next start",
+    "deploy": "rm -rf out && rm -rf node_modules/.cache && yarn compile && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@atlaskit/code": "^12.0.0",
@@ -37,6 +38,7 @@
     "@types/node": "^14.0.14",
     "@types/react": "^16.9.41",
     "@types/tinycolor2": "^1.4.2",
+    "gh-pages": "^3.1.0",
     "prettier": "^2.0.5",
     "react-refresh": "^0.8.3",
     "tailwindcss": "^1.4.6"

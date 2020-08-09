@@ -11,28 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e1739d-401d-4337-9e50-04dac79f3446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/atoms/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/atoms/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/molecules/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/Background.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/Divider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/Navbar/large.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/Shoutout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/pages/Home/Capabilities.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/pages/Home/Features.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/pages/Home/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/organisms/pages/Home/Pricing.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/global.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/hooks/useEffectOnce.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/hooks/useRafState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/hooks/useUnmount.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/hooks/useWindowScroll.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/hooks/useWindowSize.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/remToPx.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,8 +130,16 @@
       <workItem from="1594348164392" duration="10106000" />
       <workItem from="1595487002449" duration="471000" />
       <workItem from="1596161595529" duration="1107000" />
-      <workItem from="1596951330252" duration="3930000" />
+      <workItem from="1596951330252" duration="4815000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1596996652543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596996652543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,30 +157,34 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="430" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593928144650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="430" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1593928144650" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1596996265113">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1596996477539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596996265113" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596996477539" />
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1593924215618" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1596996265111">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1596996477538">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596996265111" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596996477538" />
     <state width="1419" height="240" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1593924215616" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1596996265110">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1596996477534">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596996265110" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596996477534" />
     <state width="1419" height="240" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1593924215613" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1596996265112">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1596996477539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596996265112" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596996477539" />
     <state width="1419" height="240" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1593924215617" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1596162097625">
       <screen x="0" y="0" width="1440" height="900" />
