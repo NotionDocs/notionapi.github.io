@@ -7,19 +7,6 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x]
-
-    steps:
-      - uses: actions/checkout@v2
-      - name: Configure git
-        run: git config --global user.email "colegawin@gmail.com" && git config --global user.name "Github Workflow"
-
   deploy:
     runs-on: ubuntu-18.04
     steps:
