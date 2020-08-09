@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05e1739d-401d-4337-9e50-04dac79f3446" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,7 @@
       <workItem from="1594348164392" duration="10106000" />
       <workItem from="1595487002449" duration="471000" />
       <workItem from="1596161595529" duration="1107000" />
-      <workItem from="1596951330252" duration="5861000" />
+      <workItem from="1596951330252" duration="6090000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596996652543</created>
@@ -191,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596997982849</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="use peaceiris/actions-gh-pages@v3 for workflow">
+      <created>1596998583480</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596998583480</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix workflow">
+      <created>1596998660713</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596998660713</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +229,9 @@
     <MESSAGE value="update workflow" />
     <MESSAGE value="does not need to build thrice" />
     <MESSAGE value="configure git within workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure git within workflow" />
+    <MESSAGE value="use peaceiris/actions-gh-pages@v3 for workflow" />
+    <MESSAGE value="fix workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="430" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593928144650">
@@ -247,10 +262,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596162097625" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596997988223">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596998671353">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596997988223" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596998671353" />
     <state x="421" y="191" width="598" height="518" key="find.popup" timestamp="1596996253934">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -24,7 +24,7 @@ jobs:
         run: yarn
 
       - name: Prepare for deployment
-      - run: yarn gh-pages:prepare
+        run: yarn gh-pages:prepare
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
