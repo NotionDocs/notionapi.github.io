@@ -1,6 +1,5 @@
 import { useTheme } from "store/theme";
 import Container from "components/molecules/Container";
-import tinycolor from "tinycolor2";
 import React from "react";
 import Button from "../../../atoms/Button";
 
@@ -109,8 +108,12 @@ const Pricing = () => {
                 </div>
                 <ul className="included">
                   <li>
-                    <PricingIcon type={"pro"} />
+                    <PricingIcon />
                     <p>Everything provided by NotionAPI Core</p>
+                  </li>
+                  <li>
+                    <PricingIcon type={"pro"} />
+                    <p>GraphQL querying</p>
                   </li>
                   <li>
                     <PricingIcon type={"pro"} />
@@ -122,10 +125,6 @@ const Pricing = () => {
                       Can be used with programming languages not currently
                       supported by NotionAPI Core
                     </p>
-                  </li>
-                  <li>
-                    <PricingIcon type={"con"} />
-                    <p>Personal license only</p>
                   </li>
                 </ul>
               </div>

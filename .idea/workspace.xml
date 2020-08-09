@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e1739d-401d-4337-9e50-04dac79f3446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organisms/pages/Home/Pricing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/pages/Home/Pricing.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1eD5xBGM0QjEyOWLlya1RDphkQf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -70,12 +69,22 @@
       <recent name="$PROJECT_DIR$/store" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.export">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -103,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.export" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
@@ -130,7 +140,7 @@
       <workItem from="1594348164392" duration="10106000" />
       <workItem from="1595487002449" duration="471000" />
       <workItem from="1596161595529" duration="1107000" />
-      <workItem from="1596951330252" duration="4815000" />
+      <workItem from="1596951330252" duration="5094000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596996652543</created>
@@ -139,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596996652543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add deployment ci">
+      <created>1596997335910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596997335910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,37 +176,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="add deployment ci" />
+    <MESSAGE value="update pricing" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pricing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="430" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593928144650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="430" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1593928144650" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1596996477539">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1596997571391">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596996477539" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596997571391" />
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1593924215618" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1596996477538">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1596997571389">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596996477538" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596997571389" />
     <state width="1419" height="240" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1593924215616" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1596996477534">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1596997571388">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596996477534" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596997571388" />
     <state width="1419" height="240" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1593924215613" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1596996477539">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1596997571390">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596996477539" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596997571390" />
     <state width="1419" height="240" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1593924215617" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1596162097625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596162097625" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596997341989">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596997341989" />
     <state x="421" y="191" width="598" height="518" key="find.popup" timestamp="1596996253934">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
