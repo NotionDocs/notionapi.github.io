@@ -21,5 +21,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn
+      - name: Configure git
+        run: git config --global user.email "colegawin@gmail.com" && git config --global user.name "Github Workflow"
+      - name: Install packages
+        run: yarn
       - run: yarn deploy
