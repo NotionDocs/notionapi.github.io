@@ -7,7 +7,7 @@
     "export": "next export",
     "compile": "yarn build && yarn export",
     "start": "next start",
-    "deploy": "rm -rf out && rm -rf node_modules/.cache && yarn compile && touch out/.nojekyll && gh-pages -d out -t true"
+    "gh-pages:prepare": "rm -rf out && rm -rf node_modules/.cache && yarn compile && touch out/.nojekyll"
   },
   "dependencies": {
     "@atlaskit/code": "^12.0.0",
