@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e1739d-401d-4337-9e50-04dac79f3446" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/organisms/pages/Home/Pricing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organisms/pages/Home/Pricing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,7 @@
       <workItem from="1594348164392" duration="10106000" />
       <workItem from="1595487002449" duration="471000" />
       <workItem from="1596161595529" duration="1107000" />
-      <workItem from="1596951330252" duration="5094000" />
+      <workItem from="1596951330252" duration="5237000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596996652543</created>
@@ -156,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596997335910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update pricing">
+      <created>1596997589015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596997589015</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update pricing">
+      <created>1596997649725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596997649725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,10 +222,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596162097625" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596997341989">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1596997655402">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596997341989" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596997655402" />
     <state x="421" y="191" width="598" height="518" key="find.popup" timestamp="1596996253934">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
